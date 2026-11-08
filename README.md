@@ -1,6 +1,6 @@
 # Deploy and Host Debian 13 KDE Plasma Desktop with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-kde-desktop?referralCode=20H68q)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/debian-13-kde-plasma-desktop-in-your-bro?referralCode=20H68q)
 
 A full Debian 13 (trixie) desktop with KDE Plasma that you open in a browser tab. It comes with Chromium, the Dolphin file manager, the Konsole terminal, KWrite and Gwenview. A generated password protects it, and your home directory (files, settings, browser profile) lives on a persistent volume.
 
