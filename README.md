@@ -34,7 +34,7 @@ A browser desktop needs a display server, a desktop session, a streaming server,
 |---|---|---|---|
 | Desktop | X11 (KWin) desktop session, D-Bus, audio, Selkies (loopback only), nginx (login, `/healthz`), all supervised by s6 | `/config` | 3000 (public HTTPS domain) |
 
-**Plan:** Trial and Free can start it (about 1 GB of RAM with Chromium closed); Hobby is recommended for Chromium and larger apps.
+**Plan:** Measured on Railway: about 0.55 GB of RAM with one browser session connected and no apps open. It runs within Trial's 1 GB (tested with a 1 GB limit); Free's 0.5 GB is too small. Use Hobby and 2 GB or more for Chromium and larger apps.
 
 **First login**
 
